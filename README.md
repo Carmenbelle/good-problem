@@ -27,9 +27,7 @@ Switch to the branch you just created:
 on your terminal to access where you can contribute.
 
 5. Add: To add your changes, kindly run
-* git add .
-OR
-* git add "name of file you made chnages to"
+* git add "index.html"
 
 6. commit: To commit your changes, kindly run
 * git commit -m "Commit message"
