@@ -1,9 +1,9 @@
 # Good Problem:
 
-This Open Source project was designed help beginners and even experienced programmers find solutions to some of the most common beginner problems. We all know how it can be to be stuck on an issue for a long time and getting frustrated mostly because we don't know how to find solutions or hints to help you move forward. This project hopes to point newbies in the right direction by providing resources to specific issues faced while learning or building a project.
+This Open Source project was designed to help beginners and even experienced programmers find solutions to some of the most common beginner problems. We all know how it can be to be stuck on an issue for a long time and getting frustrated mostly because we don't know how to find solutions or hints to help you move forward. This project hopes to point newbies in the right direction by providing resources to specific issues faced while learning or building a project.
 
 ## Contribution steps
-One good thing about this project it's that it's easy enough to contribute to, even for total newbies. 
+One good thing about this project is that it's easy enough to contribute to, even for total newbies. 
 
 
 1. Fork this repository:
@@ -18,7 +18,9 @@ Open a terminal and run the following git command:
 Before creating a branch, change the directory of your repository.
 * cd "foldername"
 Now create a branch:
-* git switch "your branch name"
+* git branch "your branch name"
+Switch to the branch you just created:
+*git checkout "your branch name"
 
 4. Make the necessary changes: to make changes kindly run:
 * code .
