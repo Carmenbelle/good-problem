@@ -1,0 +1,155 @@
+:root {
+    --background: #f3f1ec;
+    --check: #000;
+    --ball: #f2eee3;
+}
+
+.dark {
+    --background: #000;
+    --check: #f2eee3;
+    --ball: #000;
+}
+
+* {
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+}
+body {
+    background: var(--background);
+    font-size: 1.3rem;
+    padding: o;
+    margin: 0;
+}
+
+.nightmode-container{
+    max-width: 1200px;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.toggle-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background);
+    transition: .5s;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.label {
+    width: 50px;
+    height: 26px;
+    background: var(--check);
+    border-radius: 50px;
+    padding: 5px;
+    position: relative;
+}
+
+.ball {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 22px;
+    height: 22px;
+    background: var(--ball);
+    border-radius: 50%;
+    transition: transform .2s linear;
+}
+h1 {
+    font-size: 3rem;
+}
+h1::first-letter{
+    font-size: 4.5rem;
+    color: #29abe2;
+}
+
+/* ####################### END OF TOGGLE  ####################### */
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.card-container {
+    max-height: 70vh;
+    height: 70vh;
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 7px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    box-shadow: 2px 4px 6px #888888;
+    background: #fff;
+}
+.card-container:hover {
+    box-shadow: 5px 6px 10px #888888;
+} 
+
+.name {
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(214, 84, 106);
+}
+.logo-twitter {
+    color: rgb(214, 84, 106);
+    
+}
+ul, li a {
+    list-style-type: none;
+}
+
+.resources {
+    margin: 10px auto;
+}
+
+/* ***************FOOTER*************** */
+
+footer {
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2;
+}
+.icons {
+    padding-left: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media (max-width:800px) {
+    .container, .card-container {   
+      flex-direction: column;
+    }
+    .card-container {
+        width: 55%;
+    }
+  }
+
+
+
+
+
+
+
+
