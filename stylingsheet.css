@@ -68,6 +68,11 @@ body {
     transition: transform .2s linear;
 }
 
+#checkbox:checked + .label .ball {
+   transform: translateX(100%);
+   
+}
+
 h1 {
     font-size: 3rem;
 }
